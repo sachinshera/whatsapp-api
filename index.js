@@ -27,6 +27,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
     console.log('MESSAGE RECEIVED', msg);
+
     if (msg.body == 'ping') {
         msg.reply('pong');
     }
